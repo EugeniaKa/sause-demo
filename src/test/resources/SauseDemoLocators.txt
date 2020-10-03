@@ -1,0 +1,33 @@
+СТРАНИЦА ВХОДА
+
+Username - By.id("user-name");
+Password - By.id("password");
+Кнопка Login - By.id("login-button");
+
+ГЛАВНАЯ СТРАНИЦА
+Интересующий товар по id - By.id("item_1_title_link");
+Кнопка Add to cart - By.xpath("//button[text()='ADD TO CART']");
+Кнопка Remove - By.xpath("//button[text()='REMOVE']");
+Кнопка Back - By.xpath("//button[text()='<- Back']");
+Коллекция товаров - By.className("btn_primary");
+Коллекция товаров с активной кнопкой Remove - By.className("btn_secondary");
+
+МЕНЮ
+Меню (3 полоски в верхнем левом углу) - By.xpath("//button[text()='Open Menu']");
+Меню - All items - By.id("inventory_sidebar_link");
+Меню - About - By.id("about_sidebar_link");
+Меню - Logout - By.id("logout_sidebar_link");
+Меню - Reset App State - By.id("reset_sidebar_link");
+
+КОРЗИНА
+Зайти в корзину - By.id("shopping_cart_container");
+Кнопка Continue Shopping - By.xpath("//div/a[text()='Continue Shopping']");
+Кнопка Checkout - By.className("btn_action");
+Для отмены команды Checkout - кнопка Cancel - By.className("cart_cancel_link");
+
+ИНФОРМАЦИОННАЯ ФОРМА
+Поле First Name - By.id("first-name");
+Поле Last Name - By.id("last-name");
+Поле Zip/Postal Code - By.id("postal-code");
+Кнопка Continue - By.xpath("//input[@value='CONTINUE']");
+Кнопка Finish - By.xpath("//div/a[text()='FINISH']")

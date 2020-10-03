@@ -1,4 +1,4 @@
-package com.tms;
+package com.tms.tests;
 
 import com.tms.pages.CartPage;
 import com.tms.pages.CheckoutPage;
